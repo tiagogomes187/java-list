@@ -1,4 +1,4 @@
-package com.github.tiagogomes187.Ex01;
+package com.github.tiagogomes187.List.Ex01;
 
 import java.util.*;
 
