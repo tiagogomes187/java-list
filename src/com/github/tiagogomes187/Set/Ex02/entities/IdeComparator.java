@@ -1,4 +1,4 @@
-package com.github.tiagogomes187.Set.Ex01.entities;
+package com.github.tiagogomes187.Set.Ex02.entities;
 
 import java.util.Comparator;
 

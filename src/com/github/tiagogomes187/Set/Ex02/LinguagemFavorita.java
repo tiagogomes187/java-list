@@ -1,9 +1,9 @@
-package com.github.tiagogomes187.Set.Ex01;
+package com.github.tiagogomes187.Set.Ex02;
 
-import com.github.tiagogomes187.Set.Ex01.entities.AnoCriacaoNomeComparator;
-import com.github.tiagogomes187.Set.Ex01.entities.IdeComparator;
-import com.github.tiagogomes187.Set.Ex01.entities.LinguagemProgramacao;
-import com.github.tiagogomes187.Set.Ex01.entities.NomeAnoIdeComparator;
+import com.github.tiagogomes187.Set.Ex02.entities.AnoCriacaoNomeComparator;
+import com.github.tiagogomes187.Set.Ex02.entities.IdeComparator;
+import com.github.tiagogomes187.Set.Ex02.entities.LinguagemProgramacao;
+import com.github.tiagogomes187.Set.Ex02.entities.NomeAnoIdeComparator;
 
 import java.util.*;
 
@@ -24,6 +24,7 @@ public class LinguagemFavorita {
         myFavoritesLenguages.add(new LinguagemProgramacao("Python", 1991, "Pycharm"));
         myFavoritesLenguages.add(new LinguagemProgramacao("JavaScript", 1995, "Intellij"));
         myFavoritesLenguages.add(new LinguagemProgramacao("Java", 1991, "Visual Studio Code"));
+        myFavoritesLenguages.add(new LinguagemProgramacao("Go", 1998, "Clean Code"));
 
 
         System.out.println("--------\tOrdem de Inserção\t--------");
@@ -31,7 +32,8 @@ public class LinguagemFavorita {
                 Arrays.asList(
                         new LinguagemProgramacao("Python", 1991, "Pycharm"),
                         new LinguagemProgramacao("JavaScript", 1995, "IntelliJ"),
-                        new LinguagemProgramacao("Java", 1991, "Visual Studio Code")
+                        new LinguagemProgramacao("Java", 1991, "Visual Studio Code"),
+                        new LinguagemProgramacao("Go", 1991, "Clean code")
                 )
         );
         for (LinguagemProgramacao linguagem : myFirstFavoriteLenguage) System.out.format(linguagem.toString());
